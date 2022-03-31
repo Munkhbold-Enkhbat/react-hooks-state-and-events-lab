@@ -9,8 +9,7 @@ function App() {
  const [isDarkMode, setMode] = useState(false)
 
  const appClass = isDarkMode ? "App dark" : "App light"
- console.log("appClass", appClass)
-
+ 
   function handleClick() {  
     setMode(!isDarkMode)
   }
