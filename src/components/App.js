@@ -1,7 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
-import { useState } from "react/cjs/react.production.min";
 
 function App() { 
 
